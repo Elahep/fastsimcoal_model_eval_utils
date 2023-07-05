@@ -53,7 +53,7 @@ ggsave("variations in MaxEstLhood per model.pdf", final, width = 8, height = 6, 
 ````
 
 ### 2- Calculating AIC and other statistics
-Using the minimum MaxEstLhood of each model, we can calculate AIC to find the best model. The model with the smallest AIC will be chosen as the best model.
+Using the minimum MaxEstLhood of each model, we can calculate AIC to find the best model. The model with the smallest AIC will be chosen as the best fitting model.
 
 ```
 # Define the number of parameters (k) for each model, looking at the .bestlhoods output file.
