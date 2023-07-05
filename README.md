@@ -1,5 +1,5 @@
 # fastsimcoal_model_eval_utils
-Evaluating fastsimcoal models by calculating AIC, delta AIC, Akaike weights, and other statistical criteria.
+Evaluating fastsimcoal models by calculating AIC, delta AIC, Akaike weights, and other statistical criteria in R.
 
 
 ### 1- Boxplots of model likelihoods
