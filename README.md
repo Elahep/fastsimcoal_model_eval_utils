@@ -35,12 +35,11 @@ ggplot(data, aes(x = model, y = MaxEstLhood, fill = model)) +
 
 ## since boxplot doesn't show much variation (which is good! We don't
 # want overlapping MaxEstLhood between our models), we'll use
-# another graphs to visually explore the tiny variations
-# using a point plot or jitter plot to
-# show the individual observations for each model. 
+# another graph to visually explore the tiny variations
+# using a point plot to show the individual observations for each model. 
 # This can help reveal any small variations in the data.
 
-# Plotting the jitter plot
+# Plotting the point plot
 final <- ggplot(data, aes(x = model, y = MaxEstLhood, color = model)) +
   geom_jitter(width = 0.2, height = 0, alpha = 0.5) +
   labs(x = "Model", y = "MaxEstLhood") +
